@@ -1,0 +1,38 @@
+# Compiled class files
+target/
+*.class
+
+# Log files
+*.log
+
+# Package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+dependency-reduced-pom.xml
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+
+# Sensitive local config (real credentials - NEVER commit)
+src/main/resources/db.properties
+# Keep template committed:
+!src/main/resources/db.properties.example
+.env
+*.env
